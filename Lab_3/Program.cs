@@ -72,6 +72,7 @@ class Program
             Console.WriteLine("2 - Ввести всі параметри");
             Console.WriteLine("0 - Повернутися до головного меню");
             Console.WriteLine("Ваш вибір: ");
+            Console.WriteLine();
 
             if (!int.TryParse(Console.ReadLine(), out int creationChoice) || (creationChoice < 0 || creationChoice > 2 ))
             {
@@ -136,7 +137,7 @@ class Program
                     Console.WriteLine("Гравець доданий успішно.");
                     break;
 
-                    break;
+                    
 
                 case 2:
                     
