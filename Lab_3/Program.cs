@@ -145,6 +145,7 @@ class Program
                     {
                         Console.WriteLine();
                         Console.WriteLine("Введіть ім'я гравця:");
+                        Console.WriteLine();
                         enteredName = Console.ReadLine();
                         try
                         {
